@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App New</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 form-style">
+                <div align="center">
+                    <div class="input-group">
+                        <input type="text" id="search" class="form-control" placeholder="Enter a zipcode">
+                        <span class="input-group-btn">
+                        <button onClick = "getWeather()" class="btn btn-secondary" id="button" type="button">Search</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <div id="city">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-2 col-lg-2 offset-md-2 text-center">
+                <div class="weather">
+                    <div id="day_day1"></div>
+                    <div id="wicon_day1"></div>
+                    <div id="temp_day1"></div>
+                    <div id="city_day1"></div>
+                    <div id="cond_day1"></div>
+                    <div id="precip_day1"></div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 text-center">
+                <div class="weather">
+                    <div id="day_day2"></div>
+                    <div id="wicon_day2"></div>
+                    <div id="temp_day2"></div>
+                    <div id="city_day2"></div>
+                    <div id="cond_day2"></div>
+                    <div id="precip_day2"></div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 text-center">
+                <div class="weather">
+                    <div id="day_day3"></div>
+                    <div id="wicon_day3"></div>
+                    <div id="temp_day3"></div>
+                    <div id="city_day3"></div>
+                    <div id="cond_day3"></div>
+                    <div id="precip_day3"></div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 text-center">
+                <div class="weather">
+                    <div id="day_day4"></div>
+                    <div id="wicon_day4"></div>
+                    <div id="temp_day4"></div>
+                    <div id="city_day4"></div>
+                    <div id="cond_day4"></div>
+                    <div id="precip_day4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
