@@ -1,5 +1,5 @@
 # WeatherApp
-#####Weather forecast for four days. 
+##### Weather forecast for four days. 
 Technology used:
 - JQuery
 - Weather underground API 
