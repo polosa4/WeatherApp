@@ -1,6 +1,7 @@
 # WeatherApp
 ##### Weather forecast for four days. 
 Technology used:
+- Javascript
 - JQuery
 - Weather underground API 
 - Bootstrap
